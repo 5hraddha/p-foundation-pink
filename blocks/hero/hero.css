@@ -1,0 +1,7 @@
+.hero {
+  margin: 0;
+  width: 100%;
+  flex: 1;
+  /* To make the hero__container flex: 1 */
+  display: flex;
+}

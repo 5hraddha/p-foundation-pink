@@ -1,0 +1,11 @@
+.section-title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  /* default line height is normal i.e. 1.2 */
+  line-height: 1.2;
+}

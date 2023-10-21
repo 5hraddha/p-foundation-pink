@@ -1,3 +1,51 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+/* Page Block */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__section-banner/page__section-banner.css);
+
+/* Header Block */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+
+/* Logo Block */
+@import url(../blocks/logo/logo.css);
+
+/* Nav Block */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+
+/* Hero Block */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__text-content/hero__text-context.css);
+@import url(../blocks/hero/__cta-btn/hero__cta-btn.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__supported-systems/hero__supported-systems.css);
+@import url(../blocks/hero/__supported-system-item/hero__supported-system-item.css);
+@import url(../blocks/hero/__supported-system-img/hero__supported-system-img.css);
+
+/* Section Title Block */
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_light/section-title_light.css);
+
+/* Declare global css variables for colors used throughout the website */
+:root {
+  /* Text colors */
+  --text-light: rgba(255, 255, 255, 1);
+  --text-dark: rgba(40, 54, 69, 1);
+  --text-section-header-dark: rgba(40, 54, 69, 1);
+  --text-item-heading-dark: rgba(0, 0, 0, 1);
+
+  --highlight-pink: rgba(210, 40, 86, 1);
+  --highlight-orange: rgba(242, 91, 38, 1);
+  --highlight-green: rgba(61, 198, 68, 1);
+
+  /* Background colors */
+  --primary-bg-dark: rgba(37, 37, 39, 1);
+  --primary-bg-light: rgba(255, 255, 255, 1);
+  --secondary-bg-dark: rgba(0, 0, 0, .3);
+}

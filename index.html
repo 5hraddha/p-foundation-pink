@@ -10,60 +10,66 @@
 
 <body class="page">
   <div class="page__container">
-    <p>The repository is created with the purpose of learning adaptive web design and team collaboration using Git and
-      GitHub.</p>
+    <p>
+      The repository is created with the purpose of learning adaptive web design and team collaboration using Git and
+      GitHub.
+    </p>
   </div>
-  <div class="page__hero-bg">
-    <header class="intro">
-      <div class="intro__container">
-        <section class="intro__top-menu">
-          <picture>
-            <source srcset="images/intro-logotype-pink-white-mobile.png" media="(max-width:320px)">
-            <source srcset="images/intro-logotype-white-tablet.png" media="(max-width:660px)">
-            <img src="images/intro-logotype-white-desktop.png" alt="Glasses and the text is pink under them"
-              class="logo">
-          </picture>
-          <nav>
-            <ul class="intro__nav-list">
-              <li>
-                <a href="">Головна</a>
-              </li>
-              <li>
-                <a href="">Фотографії</a>
-              </li>
-              <li>
-                <a href="">Конкурс</a>
-              </li>
-              <li>
-                <a href="">HTML Academy</a>
-              </li>
-            </ul>
-            <button class="intro__menu-burger"><img src="images/intro-menu-burger.png" alt="menu burger"></button>
-          </nav>
-        </section>
+  <!-- To have the hero background banner -->
+  <section class="page__section-banner">
+    <!-- Header for the page to include logo, navigation menus -->
+    <header class="header">
+      <div class="header__container">
+        <!-- Logo -->
+        <picture class="logo">
+          <source media="(max-width: 425px)" srcset="./images/logo-pink-white-mobile.png">
+          <source media="(max-width: 900px)" srcset="./images/logo-white-tablet.png">
+          <img src="./images/logo-white-desktop.png" alt="word pink spelled out as logo">
+        </picture>
+        <!-- Navigation Menu -->
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link" href="">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">Photographs</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">Competition</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">HTML Academy</a>
+          </li>
+        </ul>
+        <!-- Hamburger Menu button visible on small screens -->
       </div>
     </header>
+
+    <!-- Main section for the primary content of a page like hero section;
+      it should only be used once per page -->
     <main class="hero">
       <div class="hero__container">
-        <h1 class="hero__title">Подивись на світ інакше</h1>
-        <div class="hero__info">
-          <button href="" class="hero__button" aria-label="download app">Скачати програму</button>
-          <ul class="hero__system-list">
-            <li class="hero__system">
-              <img src="images/intro-android-logo.png" alt="" class="hero__system-logo">
+        <div class="hero__text-context">
+          <h1 class="section-title section-title_light">Take a look at life differently!</h1>
+          <button class="hero__cta-btn">Download the app</button>
+          <!-- List of  supported systems as it'll be announced by screen readers the no. of systems supported-->
+          <ul class="hero__supported-systems">
+            <li class="hero__supported-system-item">
+              <img src="./images/hero-apple-logo.png" alt="apple logo" class="hero__supported-system-img">
             </li>
-            <li class="hero__system">
-              <img src="images/intro-apple-logo.png" alt="" class="hero__system-logo">
+            <li class="hero__supported-system-item">
+              <img src="./images/hero-android-logo.png" alt="android logo" class="hero__supported-system-img">
             </li>
-            <li class="hero__system">
-              <img src="images/intro-microsoft-logo.png" alt="" class="hero__system-logo">
+            <li class="hero__supported-system-item">
+              <img src="./images/hero-microsoft-logo.png" alt="microsoft logo" class="hero__supported-system-img">
             </li>
           </ul>
-          <p class="hero__subtitle">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          <p class="hero__subtitle">Available for iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
         </div>
       </div>
     </main>
-  </div>
+
+  </section>
 </body>
 
 </html>

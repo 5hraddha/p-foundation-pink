@@ -1,0 +1,7 @@
+.hero__supported-system-img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}

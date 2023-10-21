@@ -1,0 +1,24 @@
+.page__section-banner {
+  margin: 0;
+  padding: 0;
+  /* The bg banner should spead as long as the screen width but the content should stay within 1200px */
+  width: 100%;
+  /* Should not explicity define height to keep the webpage responsive */
+  /* Instead we can define min-height. In this case, let minimum height of the bg banner bethe height of the screen */
+  min-height: 95vh;
+  background: url(../../../images/hero-background-desktop.png);
+  background-size: cover;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Flex box is needed to make hero section expand */
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 425px) {
+  .page__section-banner {
+    background: url(../../../images/hero-background-mobile.png);
+    background-size: cover;
+  }
+}

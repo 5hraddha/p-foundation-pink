@@ -1,0 +1,12 @@
+.hero__text-context {
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 900px) {
+  .hero__text-context {
+    gap: 39px;
+  }
+}

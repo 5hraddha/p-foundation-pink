@@ -1,0 +1,17 @@
+.hero__supported-systems {
+  box-sizing: border-box;
+  margin-bottom: 9px;
+  padding: 0 30px;
+  width: 100%;
+  max-width: 280px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .hero__supported-systems {
+    margin-bottom: 3px;
+  }
+}

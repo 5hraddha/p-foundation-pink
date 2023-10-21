@@ -1,0 +1,16 @@
+.hero__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 130px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .hero__container {
+    padding: 0 20px;
+  }
+}
