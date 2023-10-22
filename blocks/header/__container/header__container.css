@@ -6,6 +6,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
 }
 
@@ -15,7 +16,7 @@
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 425px) {
   .header__container {
     padding: 22px 20px;
   }

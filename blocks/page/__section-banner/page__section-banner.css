@@ -19,6 +19,8 @@
 @media (max-width: 425px) {
   .page__section-banner {
     background: url(../../../images/hero-background-mobile.png);
-    background-size: cover;
+    background-color: var(--highlight-bg-dark);
+    background-size: 100% 56vh;
+    background-repeat: no-repeat;
   }
 }

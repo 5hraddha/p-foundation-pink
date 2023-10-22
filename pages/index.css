@@ -9,6 +9,8 @@
 /* Header Block */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__hamburger/header__hamburger.css);
+@import url(../blocks/header/__hamburger-line/header__hamburger-line.css);
 
 /* Logo Block */
 @import url(../blocks/logo/logo.css);
@@ -48,4 +50,5 @@
   --primary-bg-dark: rgba(37, 37, 39, 1);
   --primary-bg-light: rgba(255, 255, 255, 1);
   --secondary-bg-dark: rgba(0, 0, 0, .3);
+  --highlight-bg-dark: rgba(29, 38, 49, 1);
 }

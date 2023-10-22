@@ -10,3 +10,11 @@
     gap: 39px;
   }
 }
+
+@media (max-width: 425px) {
+  .hero__text-context {
+    padding-top: 29px;
+    align-items: center;
+    gap: 20px;
+  }
+}

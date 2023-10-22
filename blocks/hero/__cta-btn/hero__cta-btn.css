@@ -12,11 +12,24 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+
+.hero__cta-btn:hover {
+  background: var(--text-light);
+  color: var(--text-dark);
 }
 
 @media (max-width: 900px) {
   .hero__cta-btn {
     margin-bottom: 12px;
     padding: 15px 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__cta-btn {
+    margin: 320px 0 18px;
   }
 }

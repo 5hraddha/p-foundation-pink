@@ -1,0 +1,8 @@
+.header__hamburger-line {
+  display: block;
+  margin: 0;
+  padding: 2px;
+  width: 100%;
+  background: var(--text-light);
+  border-radius: 20px;
+}

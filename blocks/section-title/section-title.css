@@ -9,3 +9,9 @@
   /* default line height is normal i.e. 1.2 */
   line-height: 1.2;
 }
+
+@media (max-width: 425px) {
+  .section-title {
+    font-size: 24px;
+  }
+}
